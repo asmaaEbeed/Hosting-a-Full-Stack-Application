@@ -1,6 +1,6 @@
 # Configuring Continuous Integration Pipeline with Github
 
-    ![Circleci](circleci.jpg)
+    ![Circleci](../img/circleci.jpg)
 
 Commit and push code to the GitHub repository which is linked to the CircleCI platform. GitHub triggers the CircleCI platform when code is pushed to the repository.
 
@@ -13,8 +13,8 @@ CircleCI configuration in  .circleci/config.yml file which tells the service wha
 - ** BACKEND ** :
     Run `npm run api:install` to install all backend dependecies.
     Run `npm run api:build` to build app and export all environment variables from CircleCI configuration.
-    ![Circleci-environment-variables](04-Circleci-environment-variables.png)
+    ![Circleci-environment-variables](../img/04-Circleci-environment-variables.png)
 
 Here's screenshot of the last build shows that CircleCi account is authorized to access repo on Github and is detecting changes each time  pushing to the main branch.
 
-    ![Circleci-environment-variables](CircleCi-account.jpg)
+    ![Circleci-environment-variables](../img/CircleCi-account.jpg)
