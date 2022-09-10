@@ -17,4 +17,4 @@ CircleCI configuration in  .circleci/config.yml file which tells the service wha
 
 Here's screenshot of the last build shows that CircleCi account is authorized to access repo on Github and is detecting changes each time  pushing to the main branch.
 
-    ![Circleci-environment-variables](../img/CircleCi-account.jpg)
+![Circleci-environment-variables](../img/CircleCi-account.jpg)
