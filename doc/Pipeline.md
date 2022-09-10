@@ -1,6 +1,6 @@
 # Configuring Continuous Integration Pipeline with Github
 
-    ![Circleci](../img/circleci.jpg)
+![Circleci](../img/circleci.jpg)
 
 Commit and push code to the GitHub repository which is linked to the CircleCI platform. GitHub triggers the CircleCI platform when code is pushed to the repository.
 
